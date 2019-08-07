@@ -1,0 +1,14 @@
+在搜索栏 输入关键字 然后按TAB 即可切换到对应的搜索引擎
+
+
+google
+{google:baseURL}search?q=%s&{google:RLZ}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:iOSSearchLanguage}{google:searchClient}{google:sourceId}{google:contextualSearchVersion}ie={inputEncoding}
+
+baidu
+https://www.baidu.com/#ie={inputEncoding}&wd=%s
+
+gt
+https://translate.google.com/?source=osdd#auto|auto|%s
+
+bt
+https://fanyi.baidu.com/#zh/en/%s
